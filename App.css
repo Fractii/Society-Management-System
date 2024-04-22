@@ -1,0 +1,53 @@
+/* App.css */
+.rectangle {
+  /* width: 100px;
+  height: 50px;
+  background-color: blue; 
+  margin: 20px; */
+}
+
+.society-names {
+  width: 100%; /* Set width to 100% */
+  border: 1px solid white;
+  padding: 0px;
+  color: white; /* Set text color to white */
+}
+
+.society-names ul {
+  list-style-type: none; /* Remove bullet points */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #00264d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
